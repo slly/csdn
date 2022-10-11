@@ -53,7 +53,7 @@ def brash(proxy_dict):
     try:
         # http://blog.csdn.net/zhy421202048/article/details/50935685
         # http://blog.csdn.net/zhy421202048/article/details/50937423
-        r = requests.get("http://blog.csdn.net/zhy421202048/article/details/51499260", headers=header, proxies=proxy_dict, timeout=10)
+        r = requests.get("https://blog.csdn.net/lee_slly/article/details/125908055", headers=header, proxies=proxy_dict, timeout=10)
     except Exception, e:
         print "failed"
         # CONSTANT +=1
